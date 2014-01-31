@@ -12,6 +12,10 @@ angular.module('finch20046PortfolioApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/about.html', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
